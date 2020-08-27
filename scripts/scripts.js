@@ -51,6 +51,21 @@
 		swipeThreshold: 50,
 		responsive: true,
 	});
+	$('#slider_3').bxSlider({
+		slideMargin: 0,
+		
+		infiniteLoop: false,
+		adaptiveHeight: true,
+		controls: true,
+		minSlides: 1,
+		maxSlides: 1,
+		nextSelector: $('#slider_3_next_arrow'),
+		prevText: '',
+		nextText: '',
+		prevSelector: $('#slider_3_prev_arrow'),
+		swipeThreshold: 50,
+		responsive: true,
+	});
 
 
 
